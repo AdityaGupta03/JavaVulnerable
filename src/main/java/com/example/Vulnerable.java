@@ -12,6 +12,7 @@ public class Vulnerable {
     System.out.println("This is my Java project!");
 
     String name = null;
+    // This is a comment
     System.out.println(name.length());
 
     // Vulnerability: Unsafe handling of user input leading to Command Injection

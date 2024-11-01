@@ -9,6 +9,7 @@ public class Vulnerable {
 
   public static void main(String[] args) {
     System.out.println("Hello, World!");
+    System.out.println("This is my Java project!");
 
     // Vulnerability: Unsafe handling of user input leading to Command Injection
     if (args.length > 0) {
